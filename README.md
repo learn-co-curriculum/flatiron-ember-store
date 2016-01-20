@@ -14,3 +14,11 @@ Our goal is to create a simple Ember app that allows uses to quickly and easily 
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/oI9zoqLBKjc" frameborder="0" allowfullscreen></iframe>
 
+In order to implement this super responsive functionality, we'll be using Ember components and controller actions. Here's how it's going to work: We'll create a controller that has an action to respond to a user clicking the name of a product. That controller action handler will do the job of passing that product's data into a component, and the component will be responsible for rendering the data on the page. 
+
+Let's get started!
+
+## Instructions
+
+Fork and clone this lab to begin, use the guidelines here in conjunction with running the test suite. Remember you can run the tests by connecting to the server with `ember s` and visiting `localhost:4200/tests`. 
+
