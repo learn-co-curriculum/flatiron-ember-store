@@ -30,4 +30,15 @@ describe('Integration: User Interaction', function() {
     });
   });
 
+  it('does not show the product details if a user has not clicked on the product name', function(){
+    visit('/products');
+  
+    
+    andThen(function() {
+      expect(find('h3').text()).to.not.eq('My Awesome Product');
+      expect(find('p').text()).to.not.include('price: $10000');
+      expect(find('p').text()).to.not.include('description: something');
+    });
+  });
+
 });
