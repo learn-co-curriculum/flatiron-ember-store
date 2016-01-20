@@ -3,14 +3,16 @@
   <h2 style="text-align: center;">Products</h2>
   
   <ul class="list-group">
-  {{#each model as |product|}}
+  {{!-- start your iteration over each member of the model here --}}
     <li class="list-group-item active">
-      <a><h4 {{action 'showMore' product}}>{{product.name}}</h4></a> 
+      <a><h4>
+        {{!-- render the product name here --}}
+      </h4></a> 
     </li>
-  {{/each}}
+  {{!-- end the iteration here --}}
   </ul>
 
 </div>
 
-{{show-product product=currentProduct}}
+{{!-- call your component here --}}
    
