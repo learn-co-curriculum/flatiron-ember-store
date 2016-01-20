@@ -61,15 +61,3 @@ describe('Acceptance: Routing', function() {
     });
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
