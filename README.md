@@ -141,3 +141,5 @@ Now, test it out! Connect to your app via `ember s` and try clicking on various 
 
 
 
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/flatiron-ember-store' title='Flatiron Ember Store'>Flatiron Ember Store</a> on Learn.co and start learning to code for free.</p>
