@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('products', function() {
     this.route('product', { path: '/:product_id' });
   });
+  this.route('books');
 });
 
 export default Router;
