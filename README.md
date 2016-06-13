@@ -93,7 +93,7 @@ But, you are might be wondering, how do we dynamically pass the *right* product 
 
 First, generate a controller from the command line with `ember g controller products`. That will create the file: `app/controllers/products.js`. 
 
-In our controller, we'll define an action, `show-more`, that takes in an argument of a product and does the job of setting the `currentProduct` property equal to that product. Here's the syntax you want to use:
+In our controller, we'll define an action, `showMore`, that takes in an argument of a product and does the job of setting the `currentProduct` property equal to that product. Here's the syntax you want to use:
 
 ```javascript
 # app/controllers/something.js
@@ -143,3 +143,5 @@ Now, test it out! Connect to your app via `ember s` and try clicking on various 
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/flatiron-ember-store' title='Flatiron Ember Store'>Flatiron Ember Store</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/flatiron-ember-store'>Flatiron Ember Store</a> on Learn.co and start learning to code for free.</p>
