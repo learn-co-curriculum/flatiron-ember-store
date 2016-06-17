@@ -4,7 +4,7 @@
 
 1. Define a route that renders a specific handlebars template. 
 2. Define a route handler to return model data. 
-3. User Handlebars to render model data.
+3. Use Handlebars to render model data.
 4. Build a controller action to respond to user events on the page. 
 5. Build a component and pass data into that component to be rendered on the page. 
 
@@ -143,3 +143,5 @@ Now, test it out! Connect to your app via `ember s` and try clicking on various 
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/flatiron-ember-store' title='Flatiron Ember Store'>Flatiron Ember Store</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/flatiron-ember-store'>Flatiron Ember Store</a> on Learn.co and start learning to code for free.</p>
