@@ -124,24 +124,4 @@ Note that we pass the `{{product}}` object into the action as an argument by sim
 
 Now, test it out! Connect to your app via `ember s` and try clicking on various product names. You should see the product details appear to the right with each click. Run the tests by visiting `localhost:4200/tests` and you should be passing. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/flatiron-ember-store' title='Flatiron Ember Store'>Flatiron Ember Store</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/flatiron-ember-store'>Flatiron Ember Store</a> on Learn.co and start learning to code for free.</p>
